@@ -1,0 +1,18 @@
+{
+  "name": "veroguard",
+  "version": "0.1.0",
+  "description": "Security audit tool for npm projects",
+  "main": "src/index.js",
+  "bin": {
+    "veroguard": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.6.3",
+    "chalk": "^5.2.0",
+    "glob": "^10.2.6"
+  },
+  "type": "module"
+}
